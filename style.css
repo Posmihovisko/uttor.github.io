@@ -1,57 +1,66 @@
-/* General styles */
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  background-color: #fff;
-  color: #333;
+  font-family: 'Determination', sans-serif; /* Use the pixel font as the main font */
+  background-color: #fffbeb;
 }
 
-/* Header styles */
-header {
+.container {
+  width: 640px; /* Adjust width for your desired layout */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background-color: #00BFFF; /* Light blue */
-  color: #fff;
+  margin-bottom: 20px;
 }
 
-.logo {
-  width: 100px;
-  height: 100px;
+.header img {
+  width: 200px;
+  height: auto;
 }
 
-/* Navigation styles */
-nav {
-  display: flex;
-  list-style: none;
+h1 {
+  font-size: 2em;
   margin: 0;
-  padding: 0;
 }
 
-nav li {
-  margin-right: 1rem;
+.main {
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
 }
 
-nav a {
-  text-decoration: none;
-  color: #fff;
+.about,
+.characters {
+  margin-bottom: 20px;
 }
 
-nav a:hover {
-  color: #007bff; /* Darker blue */
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
 }
 
-/* Main content styles */
-main {
-  padding: 2rem;
+p {
+  line-height: 1.5;
 }
 
-/* Footer styles */
-footer {
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Add styles for character information and images here */
+
+.footer {
   text-align: center;
-  padding: 1rem;
-  background-color: #ddd;
-  color: #333;
+  margin-top: 20px;
+}
+@font-face {
+  font-family: 'Determination'; /* Give the font a friendly name */
+  src: url('determination.ttf') format('truetype');
 }
