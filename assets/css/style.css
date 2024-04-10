@@ -62,5 +62,5 @@ p {
 }
 @font-face {
   font-family: 'Determination'; /* Give the font a friendly name */
-  src: url('determination.ttf') format('truetype');
+  src: url('assets/determination.ttf') format('truetype');
 }
